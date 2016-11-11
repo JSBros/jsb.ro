@@ -5,6 +5,7 @@
 
   <link rel="apple-touch-icon" href="{{ site.compass.logo }}"/>
   <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64 128x128" href="{{ site.url }}/favicon.png" />
+  <link rel="apple-touch-icon" href="{{ site.url }}/touch.png">
 
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/normalize.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/main.css">
@@ -21,6 +22,13 @@
   <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{{ site.compass.logo }}"/>
   <meta property="og:description" content="{{ site.compass.description }}"/>
   <meta property="og:site_name" content="{{ site.compass.tagline }}">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@garetmckinley">
+  <meta name="twitter:creator" content="@garetmckinley">
+  <meta name="twitter:title" content="JSBro">
+  <meta name="twitter:description" content="Giving back to the JavaScript community.">
+  <meta name="twitter:image" content="http://jsb.ro/twitter.png">
 
   {% if site.compass.include_analytics %}
   {% include analytics.html %}
