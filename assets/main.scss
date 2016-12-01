@@ -37,10 +37,14 @@ a:hover {
 
 
 /*** main content list ***/
+.main-list {
+	padding-left: 2em;
+}
 .main-list-item {
-	font-weight: bold;
+	font-weight: 300;
 	font-size: 1.2em;
 	margin: 0.8em 0;
+	list-style: none;
 }
 
 /* override the left margin added by font awesome for the main content list,
